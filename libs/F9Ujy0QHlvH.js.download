@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["HBM7Jfz"]); }
+
+__d("MessengerHotlikeEmoji.bs",[],(function(a,b,c,d,e,f){"use strict";var g="f0000";function a(a){return a===g}f.hotlike_key=g;f.isMessengerHotlike=a}),null);
+__d("Utf16",[],(function(a,b,c,d,e,f){function a(a){switch(a.length){case 1:return a.charCodeAt(0);case 2:return 65536|(a.charCodeAt(0)-55296)*1024|a.charCodeAt(1)-56320;default:return null}}function b(a){if(a<65536)return String.fromCharCode(a);else return String.fromCharCode(55296+(a-65536>>10))+String.fromCharCode(56320+a%1024)}f.decode=a;f.encode=b}),66);
